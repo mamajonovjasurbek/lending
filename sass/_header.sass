@@ -1,0 +1,75 @@
+.header
+    background-color: #304ffe
+    padding-top: 47px 
+    position: relative
+    min-height: 950px
+
+    &__top
+        display: flex
+        justify-content: space-between
+    &__logo
+        margin-bottom: 220px
+    &__menu
+        a
+            text-decoration: none
+            font-size: 14px
+            font-weight: 700
+            line-height: 1.68
+            letter-spacing: 1.4px
+            // text-align: left
+            color: #ffffff
+            text-transform: uppercase
+            padding-right: 40px 
+        a:last-child
+            padding-right: 0
+
+    &__tittle
+        max-width: 700px
+        font-size: 48.8px
+        font-weight: 700
+        line-height: 1.21
+        text-align: left
+        color: #ffffff
+        margin-bottom: 60px
+    &__text
+        max-width: 600px    
+        font-size: 16px
+        font-weight: normal
+        line-height: 1.84
+        text-align: left
+        color: #ffffff
+        margin-bottom: 90px 
+    &__play
+        position: relative
+        padding-left: 90px
+        font-size: 16px
+        font-weight: bold
+        line-height: 2.5
+        text-align: left
+        color: #ffffff
+        span
+            font-size: 16px
+            font-weight: normal
+            line-height: 2.5
+            letter-spacing: normal
+            text-align: left
+            color: #ffffff
+    &__play::before
+        display: flex
+        justify-content: center
+        align-items: center
+        font-family: 'icomoon'
+        color: #304ffe
+        content: "\f04b"
+        position: absolute
+        left: 0
+        width: 60px
+        height: 60px
+        border-radius: 100%
+        background-color: #fff
+        top: -10px       
+    &__mouse
+        position: absolute
+        bottom: 56px            
+        left: 50%
+        transform: translateX(-50%)
